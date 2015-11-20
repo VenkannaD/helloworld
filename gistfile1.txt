@@ -1,0 +1,8 @@
+
+clustermode=true 
+cluster.id=0
+cluster.maxid=5
+cluster.broadcast.methods=tcp
+cluster.broadcast.method.tcp.serveraddress=IPaddress (This will be the IP address of the current node) 
+cluster.broadcast.method.tcp.port=54321 (This will be the port of the current node) 
+cluster.broadcast.method.tcp.reconnect.interval=10 
